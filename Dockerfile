@@ -1,7 +1,7 @@
 FROM timbru31/java-node:11-azul-alpine-jdk-fermium
 LABEL maintainer="oscar.berg <oscar@oscarberg.com>"
 
-ENV PLANTUML_VERSION 1.2023.7
+ENV PLANTUML_VERSION 1.2025.3
 ENV LANG en_US.UTF-8
 RUN apk add --no-cache graphviz ttf-droid ttf-droid-nonlatin curl \
     && mkdir /app \
